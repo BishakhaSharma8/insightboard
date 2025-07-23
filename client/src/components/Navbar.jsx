@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className={`navbar-links ${open ? "open" : ""}`}>
         <Link to="/">Home</Link>
         <Link to="/dashboard">Dashboard</Link>
-        <Link to="/about">About Us</Link>
+        <Link to="/about">About</Link>
         <Link to="/services">Services</Link>
         <Link to="/login">Login</Link>
         <Link to="/signup">Sign Up</Link>
