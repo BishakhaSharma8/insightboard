@@ -4,58 +4,19 @@ import Navbar from "../Navbar";
 const About = () => {
   return (
     <>
-     <Navbar />
-    <div style={styles.container}>
-      <h1 style={styles.heading}>About Us</h1>
-      <p style={styles.text}>
-        We are <strong>Team 22</strong>, building this project as part of an internship for <strong>Tata Motors</strong>.
-      </p>
-
-      <h2 style={styles.subheading}>Our Team</h2>
-
-      <table style={styles.table}>
-        <thead>
-          <tr>
-            <th style={styles.th}>Name</th>
-            <th style={styles.th}>College</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style={styles.td}>Harsh Kumar</td>
-            <td style={styles.td}>Siksha O Anusandhan</td>
-          </tr>
-          <tr>
-            <td style={styles.td}>Ansh Chauhan</td>
-            <td style={styles.td}>Siksha O Anusandhan</td>
-          </tr>
-          <tr>
-             <td style={styles.td}>Harsh Kumar</td>
-            <td style={styles.td}>Siksha O Anusandhan</td>
-          </tr>
-          <tr>
-            <td style={styles.td}>Souvik Ghosh</td>
-            <td style={styles.td}>Arka Jain University</td>
-          </tr>
-          <tr>
-            <td style={styles.td}>Aaradhya Prasad</td>
-            <td style={styles.td}>Siksha O Anusandhan</td>
-          </tr>
-          <tr>
-            <td style={styles.td}>Bishakha Sharma</td>
-            <td style={styles.td}>Haldia Institute of Technology</td>
-          </tr>
-          <tr>
-            <td style={styles.td}>Anikesh</td>
-            <td style={styles.td}>NIT Jamshedpur</td>
-          </tr>
-          <tr>
-            <td style={styles.td}>Ayush Yadav</td>
-            <td style={styles.td}>Kalinga University</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+      <Navbar />
+      <div style={styles.container}>
+        <h1 style={styles.heading}>About Me</h1>
+        <p style={styles.text}>
+          👋 Hi, I'm <strong>Bishakha Sharma</strong> – a passionate Java Developer and MERN Full Stack Developer.
+        </p>
+        <p style={styles.text}>
+          I love building efficient and scalable web applications. I have experience working with Java, Spring Boot, MongoDB, Express.js, React.js, and Node.js. Whether it's developing robust backend systems or creating beautiful frontends, I'm always excited to learn and create impactful solutions.
+        </p>
+        <p style={styles.text}>
+          This project was developed as part of an internship with <strong>Tata Motors</strong>.
+        </p>
+      </div>
     </>
   );
 };
@@ -74,37 +35,10 @@ const styles = {
     borderBottom: "2px solid #38bdf8",
     paddingBottom: "10px"
   },
-  subheading: {
-    fontSize: "1.5rem",
-    marginTop: "30px",
-    marginBottom: "16px",
-    color: "#38bdf8"
-  },
   text: {
     fontSize: "1.2rem",
     lineHeight: "1.7",
     marginBottom: "20px"
-  },
-  table: {
-    width: "100%",
-    borderCollapse: "collapse",
-    backgroundColor: "#1e293b",
-    borderRadius: "8px",
-    overflow: "hidden",
-    boxShadow: "0 4px 12px rgba(0, 0, 0, 0.5)"
-  },
-  th: {
-    padding: "12px 16px",
-    borderBottom: "1px solid #334155",
-    backgroundColor: "#334155",
-    textAlign: "left",
-    color: "#f8fafc",
-    fontWeight: "600"
-  },
-  td: {
-    padding: "12px 16px",
-    borderBottom: "1px solid #334155",
-    color: "#e2e8f0"
   }
 };
 
